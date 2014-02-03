@@ -1,4 +1,4 @@
-; ~/.emacs.d/.emacs.packages
+; ~/.emacs.d/my-packages.el
 (require 'cl)
 
 ; .emacs.packages

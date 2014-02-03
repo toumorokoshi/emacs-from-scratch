@@ -1,4 +1,4 @@
-(load "~/.emacs.d/.emacs.loadpackages")
+(load "~/.emacs.d/my-loadpackages.el")
 (add-hook 'after-init-hook '(lambda ()
-  (load "~/.emacs.d/.emacs.noexternals")
+  (load "~/.emacs.d/my-noexternals.el")
 ))

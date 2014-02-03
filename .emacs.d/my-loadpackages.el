@@ -1,8 +1,8 @@
-; ~/.emacs.d/.emacs.loadpackages
+; ~/.emacs.d/my-loadpackages.el
 ; loading package
-(load "~/.emacs.d/.emacs.packages")
+(load "~/.emacs.d/my-loadpackages.el")
 
-(require 'magit)
+require 'magit)
 (define-key global-map (kbd "C-c m") 'magit-status)
 
 (require 'yasnippet)
